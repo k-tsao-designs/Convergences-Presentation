@@ -1,0 +1,40 @@
+<!DOCTYPE HTML> 
+<html> 
+<head>
+
+    <script type="text/javascript" src="js/convergences.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+    <Link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    
+    <script>
+        $("window").scroll(function() {
+            counter=document.body.scrollTop;
+            $("#count").html(counter);
+        });
+    </script>
+</head>
+<body>
+    <h1>Convergences</h1>
+    <h2>Kelly Tsao</h2>
+
+    <h3>Image in center that morphs between symbols of stories. Once on a story, it will pause for 3-5 seconds there and the user will click on it to be taken to the first page of that story.</h3>
+
+    <a href="east1.html"><h4>Example link to East of the Sun, West of the Moon</h4></a>
+    <a href="lark1.html"><h4>Example link to The Singing Springing Lark</h4></a>
+
+
+    <script src="src/skrollr.js"></script>
+
+    <script type="text/javascript">
+        var s = skrollr.init({
+            render: function(data) {
+            //Debugging - Log the current scroll position.
+            console.log(data.curTop);
+        }
+    });
+        
+    </script>
+    
+</body>
+</html>

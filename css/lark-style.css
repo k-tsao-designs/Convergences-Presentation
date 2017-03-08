@@ -1,0 +1,285 @@
+/*Lark story css*/
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.marker {background-color: green;}
+
+.back {
+    height: 100%;
+    width: 10000px;
+    position: fixed;
+}
+
+.backgroundimg {
+    height: 110%;
+    width: auto;
+/*    padding-top: 3.66%;*/
+    top: -0.3%;
+    padding-left: 3%;
+    mix-blend-mode: multiply;
+}
+
+.backgroundcolor {
+    background-color: #A9DFBF;
+    opacity: .25;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.title-box {
+    height: 100%;
+    width: 46%;
+    position: absolute;
+    z-index: 80;
+    background-color: #7FA78F;
+}
+
+.story-title {
+    position: absolute;
+    font-weight: 700;
+    font-size: 4em;
+    top: 18%;
+    left: 11%;
+    line-height: 1.15em;
+}
+.subtitle {
+    position: relative;
+    font-size: 2em;
+    font-style: italic;
+    top: 42%;
+    left: 11.5%;
+}
+
+.story {
+    height: 100%;
+    width: 100%;
+    top:0%;
+    position: absolute;
+    z-index: 50;
+}
+
+.text {
+    height: 100%;
+    width: 350px;
+    padding: 4% 2.5%;
+    margin: 0;
+    background-color: #A9DFBF;
+    opacity: .9;
+    position: absolute;
+    font-weight: 600;
+    font-size: 1.25em;
+    line-height: 1.2;
+}
+.t1 {
+    left: 0%;
+}
+.t2 {
+    left: 100%;
+}
+.t3 {
+    left: 200%;
+}
+.t4 {
+    left: 300%;
+}
+.t5 {
+    left:400%;
+}
+
+.appear {
+    opacity: 0;
+/*    -webkit-transition: all 3s ease-in-out;
+    -moz-transition: all 3s ease-in-out;
+    -o-transition: all 3s ease-in-out;
+    transition: all 3s ease-in-out;*/
+}
+
+
+/*Illustrations*/
+.illustrations {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0%;
+    z-index: 25;
+}
+.illustration-overlap {
+    z-index: 55;
+}
+.fill {
+    background-color: #DFA9C9;
+    height: 100%;
+    position: absolute;
+    width: 70%;
+}
+.half {
+    background-color: #DFBFA9;
+    height: 100%;
+    position: absolute;
+    width: 35%;
+
+}
+.split {
+    background-color: #DFA9AE;
+    height: 100%;
+    position: absolute;
+    width: 140%;
+}
+
+.draw1 {
+    left:0%;
+}
+.draw2 {
+    left: 100%;
+}
+.draw3 {
+    left: 200%;
+}
+.draw4 {
+    left:300%;
+}
+.draw5 {
+    left:400%;
+}
+
+.overlap1 {
+    background-color: #C394B0;
+}
+.overlap2 {
+    background-color: #A77F97;
+}
+
+
+/*Text blocks*/
+.temp-text-block {
+    z-index: 100;
+    position: absolute;
+    opacity: .9;
+}
+.embed {
+    height: 50%;
+    width: auto;
+}
+.full {
+    height: 80%;
+    width: auto;
+}
+
+.text-block {
+    z-index: 100;
+    position: relative;
+    background-color: white;
+}
+
+.italic {
+    font-style: italic;
+}
+.light {
+    font-weight: 300;
+}
+.regular {
+    font-weight: 400;
+}
+.medium {
+    font-weight: 500;
+}
+.semibold {
+    font-weight: 600;
+}
+.bold {
+    font-weight: 700;
+}
+
+
+/*Tooltip*/
+.tooltip {
+    position: relative;
+    display: inline;
+    margin-top: -2px;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 5px 6px;
+    border-radius: 6px;
+    margin-top: -.2em;
+    z-index: 125 !important;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/*Text blocks*/
+#tb1 {
+
+}
+
+#tb2 {
+
+}
+
+#tb3 {
+
+}
+
+#tb4 {
+
+}
+
+#tb5 {
+
+}
+
+#tb6 {
+
+}
+
+#tb7 {
+
+}
+
+#tb8 {
+
+}
+
+#tb9 {
+
+}
+
+#tb10 {
+
+}
+
+    #tb9b {
+
+    }
+    #tb10b {
+
+    }
+
+#tb11 {
+
+}
+
+#tb12 {
+
+}
+
+
+
+
+

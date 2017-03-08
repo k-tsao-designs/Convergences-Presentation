@@ -160,6 +160,14 @@ body {
     background-color: #DFEEA2;
 }
 
+.ink {
+    position: relative;
+    float: right;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 
 /*Text blocks*/
 .temp-text-block {

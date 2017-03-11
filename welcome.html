@@ -4,8 +4,13 @@
 
     <script type="text/javascript" src="js/convergences.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
-    <Link rel="stylesheet" href="CSS/style.css">
+    <Link rel="stylesheet" href="css/style.css">
+    <Link rel="stylesheet" href="css/welcome.css">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+        <style>
+        body {height: 8000px;}
+    </style>
     
     <script>
         $("window").scroll(function() {
@@ -15,14 +20,72 @@
     </script>
 </head>
 <body>
-    <h1>Convergences</h1>
-    <h2>Kelly Tsao</h2>
 
-    <h3>Image in center that morphs between symbols of stories. Once on a story, it will pause for 3-5 seconds there and the user will click on it to be taken to the first page of that story.</h3>
+<div class="container"
+data-0="background-color:rgb(135,157,191);"
+data-6000="background-color:rgb(169,223,191);">
+    <div class="title"
+    data-0="top:0%;"
+    data-3000="top:-100%;">
+        <h1>Convergences</h1>
 
-    <a href="east1.html"><h4>Example link to East of the Sun, West of the Moon</h4></a>
-    <a href="lark1.html"><h4>Example link to The Singing Springing Lark</h4></a>
+        
+        <div id="img-shift-box">
+            <div class="activeimg img-shift">
+                <a href="east1.html">
+                    <img src="img/east-link.png" >
+                    <h4>Example link to East of the Sun, West of the Moon</h4>
+                </a>
+            </div>
+            <div class="img-shift">
+                <a href="lark1.html">
+                    <img src="img/lark-link.png">
+                    <h4>Example link to The Singing Springing Lark</h4>
+                </a>
+            </div>
+        </div>
 
+    <!--     <h3>Image in center that morphs between symbols of stories. Once on a story, it will pause for 3-5 seconds there and the user will click on it to be taken to the first page of that story.</h3>
+     -->
+        
+
+        <h6
+        data-0="opacity:1;"
+        data-500="opacity:0.5;"
+        data-1000="opacity:0;">
+        Scroll down for more info</h6>
+
+    </div><!--title-->
+
+    <div class="about"
+    data-0000="top:100%;"
+    data-3000="top:00%;">
+    <h2>About this Project</h2>
+        <div class="navigation">
+            <h3>Navigation</h3>
+            <h4>
+                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+            </h4>
+        </div>
+
+        <div class="stories">
+            <h3>Stories</h3>
+            <h4>
+                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+            </h4>
+        </div>
+    </div><!--about-->
+
+    <div class="footer"
+    data-6000="top:100%;"
+    data-8000="top:85%;">
+        <span class="bold"><h5>2017 Capstone Project</h5></span>
+        <h5>Kelly Tsao</h5>
+        <span class="right"><a href="thanks.html"><h5>Acknowledgements</h5></a>
+</span>
+    </div>
+
+</div><!--container-->
 
     <script src="src/skrollr.js"></script>
 
@@ -35,6 +98,8 @@
     });
         
     </script>
-    
 </body>
+
+
+
 </html>

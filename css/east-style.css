@@ -97,14 +97,6 @@ body {
     left:400%;
 }
 
-.appear {
-    opacity: 0;
-    -webkit-transition: all 3s ease-in-out;
-    -moz-transition: all 3s ease-in-out;
-    -o-transition: all 3s ease-in-out;
-    transition: all 3s ease-in-out;
-}
-
 
 /*Characters*/
 .illustrations {
@@ -189,25 +181,6 @@ body {
     z-index: 100;
     position: relative;
     background-color: white;
-}
-
-.italic {
-    font-style: italic;
-}
-.light {
-    font-weight: 300;
-}
-.regular {
-    font-weight: 400;
-}
-.medium {
-    font-weight: 500;
-}
-.semibold {
-    font-weight: 600;
-}
-.bold {
-    font-weight: 700;
 }
 
 /*Page 3*/
@@ -295,31 +268,12 @@ body {
         font-style: normal;
     }
 
-/*Tooltip*/
-.tooltip {
-    position: relative;
-    display: inline;
-}
 
-/* Tooltip text */
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 400px;
-    background-color: white;
-    color: black;
-    text-align: left;
-    padding: 5px 6px;
-    border-radius: 6px;
-    margin-top: -.2em;
-    z-index: 125 !important;
-    /* Position the tooltip text - see examples below! */
-    position: absolute;
-    z-index: 1;
-}
+/* Word link text */
+.tooltiptext {
+    font-family: 'Josefin Sans';
+    font-weight: 600;
 
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
-    visibility: visible;
 }
 
 
